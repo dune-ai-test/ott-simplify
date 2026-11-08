@@ -112,8 +112,6 @@ function renderInfo(){
     $("#platform").textContent=m.platform;
     $("#dateLabel").textContent=m.dateLabel;
     $("#countLabel").textContent=countLabel(m.date);
-    $("#tagline").textContent=m.tagline;
-    $("#synopsis").textContent=m.synopsis || "";
     $("#curIdx").textContent=String(idx+1).padStart(2,"0");
     // staggered title
     const t=$("#title");
